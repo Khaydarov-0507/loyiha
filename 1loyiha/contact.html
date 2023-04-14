@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Bog'lanish</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="shared.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header section -->
+<header class="main-header">
+  <div class="container">
+      <div class="main-header__brand">
+        <a href="index.html">
+          <img src="images/mblogo1.jpg" alt="Logo">
+        </a>
+      </div>
+     <nav class="main-navigation">
+         <ul class="main-navigation__items">
+            <li class="main-navigation__item">
+            <a href="index.html">Asosiy</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Men haqimda</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Xizmatlarim</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Mijozlarim</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Sheriklarim</a>
+            </li>
+            <li class="main-navigation__item active">
+              <a href="./contact.html">Bog'lanish</a>
+            </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- /Header section  -->
+<div class="container">
+  <section class="contact">
+    <div class="section-title">
+      Men Bilan Bog'laning
+    </div>
+      <form action="/server.php" method="get">
+        <textarea rows="10" placeholder="Xabaringizni Kiriting" name="message"></textarea>
+        <div class="half-row contact__firstname">
+          <input type="text" placeholder="Ismingizni Kiriting" name="firstname">
+        </div>
+        <div class="half-row contact__email">
+          <input type="text" placeholder="Emailingizni Kiriting" name="Email">
+        </div>
+        <input type="text" placeholder="Xat Mazmuni" name="subject">
+        <button class="button contact__send" type="submit">Xabar Jonatish</button>
+      </form>
+    </section>
+</div>
+<!-- Footer section -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__brand">
+        <img src="/images/mblogo1.jpg" alt="logo">
+    </div>
+    <nav class="footer__navigation">
+      <ul class="footer__navigation-items">
+        <li class="footer__navigation-item">
+          <a href="#">Asosiy</a>
+        </li>
+        <li class="footer__navigation-item">
+          <a href="#">Men haqimda</a>
+        </li>
+        <li class="footer__navigation-item">
+          <a href="#">Xizmatlarim</a>
+        </li>
+        <li class="footer__navigation-item">
+          <a href="#">Mijozlarim</a>
+        </li>
+        <li class="footer__navigation-item">
+          <a href="#">Portfolio</a>
+        </li>
+        <li class="footer__navigation-item">
+          <a href="#">Blog</a>
+        </li>
+        <li class="footer__navigation-item">
+          <a href="#">Sheriklarim</a>
+        </li>
+      </ul>
+    </nav>
+    <ul class="footer__socials">
+        <li class="footer__social">
+            <a href="https://t.me/khaydarovm0507">
+              <i class="fab fa-telegram"></i>
+            </a>
+        </li>
+        <li class="footer__social">
+          <a href="https://instagram.com/khaydarov0507">
+            <i class="fab fa-instagram"></i>
+          </a>
+      </li>
+      <li class="footer__social">
+        <a href="https://github.com/khaydarov-0507">
+          <i class="fab fa-github"></i>
+        </a>
+    </li>
+    </ul>
+      <p class="footer__text">
+          Copyright 2021 All right reserved | This template is made with by colorib
+      </p>
+  </div>
+</footer>
+<!-- /Footer section -->
+</body>
+</html>
